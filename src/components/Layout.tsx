@@ -16,11 +16,11 @@ export default function Layout() {
   return (
     <div className="flex flex-row overflow-hidden">
       <Sidebar>
-        <IconLink to="#top" title="Hjem" icon={faHouse} />
-        <IconLink to="#om" title="Om" icon={faUser} />
-        <IconLink to="#software" title="Software" icon={faComputer} />
-        <IconLink to="#projekter" title="Projekter" icon={faFileLines} />
-        <IconLink to="#kontakt" title="Kontakt" icon={faEnvelope} />
+        <IconLink to="/#top" title="Hjem" icon={faHouse} />
+        <IconLink to="/#om" title="Om" icon={faUser} />
+        <IconLink to="/#software" title="Software" icon={faComputer} />
+        <IconLink to="/#projekter" title="Projekter" icon={faFileLines} />
+        <IconLink to="/#kontakt" title="Kontakt" icon={faEnvelope} />
       </Sidebar>
       <Body>
         <Suspense>

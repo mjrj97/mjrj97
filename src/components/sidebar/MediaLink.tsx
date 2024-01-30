@@ -11,7 +11,7 @@ export default function MediaLink({
 }) {
   return (
     <Link to={href} target="_blank" rel="noopener noreferrer">
-      <div className="w-8 h-8 rounded-full grid justify-center content-center transition bg-dark-blue-accent hover:bg-cyan-800 ">
+      <div className="w-8 h-8 rounded-full grid justify-center content-center transition bg-dark-blue-accent hover:bg-cyan-800 text-white">
         <FontAwesomeIcon icon={icon} />
       </div>
     </Link>
